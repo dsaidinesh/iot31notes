@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    margin: 0px;
+
+}
+.left{
+    background-color: black;
+    height: 100%;
+    width: 19%;
+    float:left;
+    font-family: 'Libre Baskerville', serif;
+font-family: 'PT Sans', sans-serif;
+    Color : #ffffff;
+    text-align :center;
+}
+.right{
+    background-color: white;
+    height:100%;
+    width:81%;
+    float:right;
+    text-align: center;
+    margin-top: 10%;
+}
+.notes{
+    margin-top: 50px;
+}
+button{
+    color: white;
+    background-color: black;
+    border: 0px;
+    font-size:20px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    width: 100%;
+}
+button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+  
+  #aiotnotes,#wtnotes,#dwdmnotes,#penotes,#obnotes {
+    display: none;
+}
