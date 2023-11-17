@@ -3,6 +3,7 @@
     overflow: hidden;
     position: relative;
     height: 100%;
+    margin: auto;
 }
 body{
     margin: 0px;
@@ -10,7 +11,7 @@ body{
 .left{
     background-color: black;
     height: 100%;
-    width: 19%;
+    width: 18%;
     float:left;
     position: absolute;
     font-family: 'Libre Baskerville', serif;
@@ -53,3 +54,32 @@ button:hover {
     font-size: 50px;
 
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        overflow-y: auto; 
+        max-height: 100vh; 
+    }
+
+    .left, .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        margin-top: 20px; 
+        order: -1; 
+    }
+
+    .subtitle {
+        font-size: 24px; 
+    }
+
+    .fa-folder-open {
+        margin: 10px; 
+    }
+}
+
+
