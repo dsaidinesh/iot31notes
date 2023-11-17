@@ -52,4 +52,21 @@ button:hover {
     font-family: "Audiowide";
     font-size: 50px;
 
+
+}
+.con{
+    border: 3px solid seagreen;
+    width: 100%;
+}
+#r{
+    margin: 0;
+    width: 75%;
+    float: right;
+
+}
+#l{
+    width: 25%;
+    margin: 0;
+    float: left;
+    
 }
