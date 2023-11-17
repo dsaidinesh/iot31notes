@@ -1,16 +1,18 @@
 .container{
     width: 100%;
     overflow: hidden;
+    position: relative;
+    height: 100%;
 }
 body{
     margin: 0px;
-
 }
 .left{
     background-color: black;
     height: 100%;
     width: 19%;
     float:left;
+    position: absolute;
     font-family: 'Libre Baskerville', serif;
 font-family: 'PT Sans', sans-serif;
     Color : #ffffff;
@@ -22,7 +24,8 @@ font-family: 'PT Sans', sans-serif;
     width:81%;
     float:right;
     text-align: center;
-    margin-top: 10%;
+    margin-top: auto;
+    position: relative;
 }
 .notes{
     margin-top: 50px;
@@ -43,4 +46,10 @@ button:hover {
   
   #aiotnotes,#wtnotes,#dwdmnotes,#penotes,#obnotes {
     display: none;
+}
+.subtitle{
+    text-transform: uppercase;
+    font-family: "Audiowide";
+    font-size: 50px;
+
 }
