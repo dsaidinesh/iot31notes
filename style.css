@@ -1,83 +1,106 @@
-.container{
+:root {
+    --federal-blue: #03045eff;
+    --marian-blue: #023e8aff;
+    --honolulu-blue: #0077b6ff;
+    --blue-green: #0096c7ff;
+    --pacific-cyan: #00b4d8ff;
+    --vivid-sky-blue: #48cae4ff;
+    --non-photo-blue: #90e0efff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
     width: 100%;
     overflow: hidden;
     position: relative;
-    height: 100%;
+    height: 100vh;
     margin: auto;
 }
-body{
-    margin: 0px;
-}
-.left{
-    background-color: black;
+
+.left {
+    background-color: var(--federal-blue);
     height: 100%;
     width: 18%;
-    float:left;
+    float: left;
     position: absolute;
-    font-family: 'Libre Baskerville', serif;
-font-family: 'PT Sans', sans-serif;
-    Color : #ffffff;
-    text-align :center;
+    color: #ffffff;
+    text-align: center;
 }
-.right{
+
+.right {
     background-color: white;
-    height:100%;
-    width:81%;
-    float:right;
+    height: 100%;
+    width: 81%;
+    float: right;
     text-align: center;
     margin-top: auto;
     position: relative;
 }
-.notes{
+
+.notes {
     margin-top: 100px;
 }
-button{
+
+button {
     color: white;
-    background-color: black;
-    border: 0px;
-    font-size:20px;
+    background-color: var(--marian-blue);
+    border: 0;
+    font-size: 20px;
     margin-top: 10px;
     transition-duration: 0.4s;
     width: 100%;
 }
+
 button:hover {
-    background-color: #04AA6D; /* Green */
+    background-color: var(--blue-green);
     color: white;
-  }
-  
-  #aiotnotes,#wtnotes,#dwdmnotes,#penotes,#obnotes {
+}
+
+#aiotnotes,
+#wtnotes,
+#dwdmnotes,
+#penotes,
+#obnotes {
     display: none;
 }
-.subtitle{
+
+.subtitle {
     text-transform: uppercase;
     font-family: "Audiowide";
     font-size: 50px;
-.foot{
-    text-align: end;
-}
+    color: var(--vivid-sky-blue);
 }
 
-/* Mobile styles */
+.foot {
+    text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
     .container {
-        flex-direction: column-reverse; 
-        overflow-y: auto; 
-        max-height: 100vh; 
+        flex-direction: column-reverse;
+        overflow-y: auto;
+        max-height: 100vh;
     }
 
-    .left, .right {
+    .left,
+    .right {
         width: 100%;
         height: auto;
-        box-sizing: border-box; 
-        padding: 10px; 
+        box-sizing: border-box;
+        padding: 10px;
         margin: 10px 0;
     }
 
     .subtitle {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
     .fa-folder-open {
-        margin: 10px; 
+        margin: 10px;
     }
 }
