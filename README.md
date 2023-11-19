@@ -21,7 +21,7 @@ This web development project, titled "IOT31 Notes," provides a platform for orga
 ## Author
 - **Author:** D SAIDINESH
 - **Email:** dsaidinesh2003@gmail.com
-- **GitHub:**https://github.com/dsaidinesh
+- **GitHub:** https://github.com/dsaidinesh
 
 ## Contact
 Feel free to reach out if you have any questions or suggestions.
