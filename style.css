@@ -41,6 +41,12 @@ body {
     margin-top: auto;
     position: relative;
 }
+#icon{
+    margin-top: 30px;
+    margin-right: 0%;
+    right: 2%;
+    position: fixed;
+}
 
 .notes {
     margin-top: 100px;
